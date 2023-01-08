@@ -1,0 +1,88 @@
+export type SearchProjectsResponse = {
+    total: number;
+    projectDocuments: ProjectDocument[];
+};
+
+export type ProjectDocument = {
+    projectId: string;
+    projectName: string;
+    projectDescription: string;
+    projectTitle: string;
+    projectProgrammeYears: string;
+    projectExternalReference: string | null;
+    projectNationalId: string | null;
+    projectSubject: string;
+    projectStartDate: string;
+    projectEndDate: string;
+    projectActivityYears: string | null;
+    projectCoverage: string;
+    projectTags: string;
+    projectTopics: string;
+    projectAudience: string;
+    projectCreationDate: string;
+    projectModifiedDate: string;
+    projectPublicationDate: string;
+    projectLevel1: string;
+    projectLevel1Label: string;
+    projectLevel2: string;
+    projectLevel2Label: string;
+    projectLevel3: string;
+    projectLevel3Label: string;
+    projectCallYear: string;
+    projectGoodPractice: boolean;
+    projectGrantedEuAmount: number;
+    projectFactsheet: boolean;
+    projectEuropeanYearOfCulturalHeritage: boolean;
+    projectEuropeanLanguageLabel: boolean;
+    projectEuropeanInnovativeTeachingAward: boolean;
+    projectHasWebsite: boolean;
+    projectTotalPublishedResults: number;
+    projectWebsite: string;
+    projectDescriptionBackground: string | null;
+    projectDescriptionObjectives: string | null;
+    projectDescriptionImplementation: string | null;
+    projectDescriptionResults: string | null;
+    projectDescriptionActivities: string | null;
+    projectDescriptionImpact: string | null;
+    projectDescriptionManagement: string | null;
+    projectActivities: string | null;
+    projectStatus: 'ongoing' | 'completed';
+    projectStatusDate: string;
+    projectMobilityType: string | null;
+    projectLocation: string;
+    organisations: string | null;
+    coordinator: Organization;
+    partners: Organization[];
+    results: ProjectResult[];
+    projectCentralised: boolean;
+    projectHighlighted: string | null;
+    ka120AccreditationType: string | null;
+    accreditationSummary: string | null;
+    erasmusPolicyStatement: string | null;
+};
+
+export type Organization = {
+    organisationId: string;
+    organisationName: string;
+    organisationPIC: string;
+    organisationRole: string;
+    organisationCountry: string;
+    organisationRegion: string;
+    organisationCity: string;
+    organisationAccuracy: string;
+    organisationLocation: string;
+    organisationType: string;
+    organisationStatus: string;
+    organisationIsConsortium: string | null;
+    id: string | null;
+};
+
+export type ProjectResult = {
+    resultCategory: string;
+    resultDescription: string;
+    resultId: string;
+    resultName: string;
+    resultTitle: string;
+    resultType: string;
+    resultTypology: string;
+};

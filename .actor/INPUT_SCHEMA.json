@@ -1,0 +1,461 @@
+{
+    "title":"Erasmus Plus Project Scraper",
+    "type":"object",
+    "schemaVersion":1,
+    "properties":{
+        "ongoingProjects":{
+            "title":"Ongoing projects",
+            "type":"boolean",
+            "description":"Check if you want to extract ongoing projects.",
+            "default":true,
+            "sectionCaption":"Project status"
+        },
+        "completedProjects":{
+            "title":"Completed projects",
+            "type":"boolean",
+            "description":"Check if you want to extract completed projects.",
+            "default":true
+        },
+        "withResultsProjects":{
+            "title":"Projects with results",
+            "type":"boolean",
+            "description":"Check if you're only interested in projects with results.",
+            "default":false
+        },
+        "projectAction":{
+            "title":"Project Action",
+            "type":"string",
+            "description":"Select project action you're interested in. If you skip this field, projects of all actions will be extracted.",
+            "editor":"select",
+            "enum":[
+                "ka1-31046220;43353406",
+                "ka2-31046221;43353410",
+                "ka3-31046222",
+                "jeanMonnet-31046223",
+                "sport-31046224"
+            ],
+            "enumTitles":[
+                "KA1: Learning Mobility of Individuals",
+                "KA2: Cooperation for innovation and the exchange of good practices",
+                "KA3: Support for policy reform",
+                "Jean Monnet Activities",
+                "Sport"
+            ],
+            "sectionCaption":"Project Actions"
+        },
+            "ka101-actionType-31046251": {
+                "title": "KA101: School education staff mobility",
+                "type": "boolean",
+                "description": "",
+                "sectionCaption": "KA1 Action Types",
+                "sectionDescription": "You can choose specific KA1 action types and limit the search. If you leave all options unchecked, all KA1 projects will be searched (if KA1 is set as a current action type)."
+            },
+            "ka102-actionType-31046252": {
+                "title": "KA102: VET learner and staff mobility",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka103-actionType-31064416": {
+                "title": "KA103: Higher education student and staff mobility within programme countries",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka103-actionType-31046253": {
+                "title": "KA103_OLD: Higher education student and staff mobility",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka104-actionType-31046254": {
+                "title": "KA104: Adult education staff mobility",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka105-actionType-31046255": {
+                "title": "KA105: Youth mobility",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka106-actionType-31046256": {
+                "title": "KA106: Large-scale EVS events",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka107-actionType-31064388": {
+                "title": "KA107: Higher education student and staff mobility between Programme and Partner Countries",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka111-actionType-31046261": {
+                "title": "KA111: Erasmus Mundus Joint Master Degrees",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka116-actionType-31070549": {
+                "title": "KA116: VET learner and staff mobility with VET mobility charter",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka120-actionType-42801136": {
+                "title": "KA120: Erasmus accreditation",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka122-actionType-43223904": {
+                "title": "KA122-ADU: Short-term projects for mobility of staff in adult education",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka122-actionType-43223901": {
+                "title": "KA122-SCH: Short-term projects for mobility of learners and staff in school education",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka122-actionType-43223898": {
+                "title": "KA122-VET: Short-term projects for mobility of learners and staff in vocational education and training",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka125-actionType-31088847": {
+                "title": "KA125: Volunteering Projects",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka131-actionType-43223907": {
+                "title": "KA131-HED: Mobility of higher education students and staff",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka135-actionType-31081513": {
+                "title": "KA135: Strategic EVS",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka152-actionType-43223913": {
+                "title": "KA152-YOU: Mobility  of young people",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka153-actionType-43223916": {
+                "title": "KA153-YOU: Mobility of youth workers",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka154-actionType-43223919": {
+                "title": "KA154-YOU: Youth participation activities",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka171-actionType-44442484": {
+                "title": "KA171-HED: Mobility of higher education students and staff supported by external policy funds",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka200-actionType-31046264": {
+                "title": "KA200: Strategic Partnerships addressing more than one field",
+                "type": "boolean",
+                "description": "",
+                "sectionCaption": "KA2 Action Types",
+                "sectionDescription": "You can choose specific KA2 action types and limit the search. If you leave all options unchecked, all KA2 projects will be searched (if KA2 is set as a current action type)."
+            },
+            "ka201-actionType-31046265": {
+                "title": "KA201: Strategic Partnerships for school education",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka202-actionType-31046266": {
+                "title": "KA202: Strategic Partnerships for vocational education and training",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka203-actionType-31046267": {
+                "title": "KA203: Strategic Partnerships for higher education",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka204-actionType-31046268": {
+                "title": "KA204: Strategic Partnerships for adult education",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka205-actionType-31046269": {
+                "title": "KA205: Strategic Partnerships for youth",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka206-actionType-31046270": {
+                "title": "KA206: Knowledge Alliances for higher education",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka207-actionType-31046271": {
+                "title": "KA207: Sector Skills Alliances in vocational education and training",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka210-actionType-43223928": {
+                "title": "KA210-ADU: Small-scale partnerships  in adult education",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka210-actionType-43223922": {
+                "title": "KA210-SCH: Small-scale partnerships in school education",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka210-actionType-43223925": {
+                "title": "KA210-VET: Small-scale partnerships in vocational education and training",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka210-actionType-43223931": {
+                "title": "KA210-YOU: Small-scale partnerships in youth",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka211-actionType-31046275": {
+                "title": "KA211: Capacity Building in higher education",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka212-actionType-31046276": {
+                "title": "KA212: Network of National Erasmus+ Offices",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka213-actionType-31046277": {
+                "title": "KA213: Capacity Building for youth in ACP countries, Latin America and Asia",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka214-actionType-31046278": {
+                "title": "KA214: Capacity Building for youth in neighbouring and enlargement countries",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka219-actionType-31064430": {
+                "title": "KA219: Strategic Partnerships for Schools Only",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka220-actionType-43223940": {
+                "title": "KA220-ADU: Cooperation partnerships in adult education",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka220-actionType-43223943": {
+                "title": "KA220-HED: Cooperation partnerships in higher education",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka220-actionType-43223934": {
+                "title": "KA220-SCH: Cooperation partnerships in school education",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka220-actionType-43223937": {
+                "title": "KA220-VET: Cooperation partnerships in vocational education and training",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka220-actionType-43223946": {
+                "title": "KA220-YOU: Cooperation partnerships in youth",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka226-actionType-43152710": {
+                "title": "KA226: Partnerships for Digital Education Readiness",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka227-actionType-43152713": {
+                "title": "KA227: Partnerships for Creativity",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka229-actionType-31088851": {
+                "title": "KA229: School Exchange Partnerships",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka230-actionType-31099188": {
+                "title": "KA230: European Universities",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka308-actionType-31046287": {
+                "title": "KA308: Collection of evidence - Studies",
+                "type": "boolean",
+                "description": "",
+                "sectionCaption": "KA3 Action Types",
+                "sectionDescription": "You can choose specific KA3 action types and limit the search. If you leave all options unchecked, all KA3 projects will be searched (if KA3 is set as a current action type)."
+            },
+            "ka313-actionType-31046292": {
+                "title": "KA313: Forward looking cooperation projects",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka314-actionType-31046293": {
+                "title": "KA314: Policy experimentations",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka324-actionType-31046303": {
+                "title": "KA324: Networks - NARIC (National Academic Recognition Centres)",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka326-actionType-31046305": {
+                "title": "KA326: Networks - Eurodesk Brussels-link",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka330-actionType-31046309": {
+                "title": "KA330: Networks - EQF National Coordination Points (European Qualifications Framework)",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka333-actionType-31046312": {
+                "title": "KA333: Higher Education tools - Initiative to support the implementation of EHEA reforms/Support to Bologna process",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka347-actionType-42194001": {
+                "title": "KA347: Youth Dialogue Projects",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka347-actionType-31046326": {
+                "title": "KA347_OLD: Dialogue between young people and policy makers",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka357-actionType-31058943": {
+                "title": "KA357: Dedicated VET Tools",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka359-actionType-31069111": {
+                "title": "KA359: Partnerships of apprenticeships",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka362-actionType-31068711": {
+                "title": "KA362: Support to the better knowledge in the Youth policy",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka364-actionType-31072487": {
+                "title": "KA364: Transparency and recognition of skills and qualifications",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka365-actionType-31072527": {
+                "title": "KA365: EQAVET Network ( European Quality Assurance Reference Framework for Vocational Education and Training)",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka366-actionType-31075307": {
+                "title": "KA366: Social inclusion through education, training and youth",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka367-actionType-31079268": {
+                "title": "KA367: VET-Business Partnerships on Apprenticeships/Work-based learning",
+                "type": "boolean",
+                "description": ""
+            },
+            "ka369-actionType-31094869": {
+                "title": "KA369: European Youth Together",
+                "type": "boolean",
+                "description": ""
+            },
+            "academic-actionType-31046337": {
+                "title": "Jean Monnet Academic Modules",
+                "type": "boolean",
+                "description": "",
+                "nullable": true,
+                "sectionCaption": "Jean Monnet Action Types",
+                "sectionDescription": "You can choose specific Jean Monnet action types and limit the search. If you leave all options unchecked, all Jean Monnet projects will be searched (if Jean Monnet is set as a current action type)."
+            },
+            "excellence-actionType-31046338": {
+                "title": "Jean Monnet Centres of Excellence",
+                "type": "boolean",
+                "description": "",
+                "nullable": true
+            },
+            "chairs-actionType-31046336": {
+                "title": "Jean Monnet Chairs",
+                "type": "boolean",
+                "description": "",
+                "nullable": true
+            },
+            "networks-actionType-31046347": {
+                "title": "Jean Monnet Networks",
+                "type": "boolean",
+                "description": "",
+                "nullable": true
+            },
+            "projects-actionType-31046348": {
+                "title": "Jean Monnet Projects",
+                "type": "boolean",
+                "description": "",
+                "nullable": true
+            },
+            "supportToAcademy-actionType-31046343": {
+                "title": "Jean Monnet Support to Academy of European Law, Trier",
+                "type": "boolean",
+                "description": ""
+            },
+            "supportToCife-actionType-31046346": {
+                "title": "Jean Monnet Support to CIFE, Nice",
+                "type": "boolean",
+                "description": ""
+            },
+            "supportToEu-actionType-31046342": {
+                "title": "Jean Monnet Support to European University Institute, Florence",
+                "type": "boolean",
+                "description": ""
+            },
+            "supportToInstitution-actionType-31046339": {
+                "title": "Jean Monnet Support to Institutions and Associations",
+                "type": "boolean",
+                "description": ""
+            },
+            "partnerships-actionType-31046350": {
+                "title": "Collaborative Partnerships",
+                "type": "boolean",
+                "description": ""
+            },
+            "nonProfit-actionType-31046351": {
+                "title": "Not-for-profit European sport events",
+                "type": "boolean",
+                "description": ""
+            },
+        "proxyConfiguration":{
+            "title":"Proxy Configuration",
+            "type":"object",
+            "description":"Use either Apify proxies or your own.",
+            "prefill":{
+                "useApifyProxy":true
+            },
+            "default":{
+                "useApifyProxy":true
+            },
+            "editor":"proxy",
+            "sectionCaption":"Advanced options (proxy configuration, debug mode)"
+        },
+        "debugMode":{
+            "title":"Debug Mode",
+            "type":"boolean",
+            "description":"Check this field if you need to see debug logs.",
+            "default":false
+        }
+    },
+    "required":[
+        "ongoingProjects",
+        "completedProjects",
+        "withResultsProjects",
+        "proxyConfiguration",
+        "debugMode"
+    ]
+}
