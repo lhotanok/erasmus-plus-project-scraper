@@ -436,6 +436,30 @@
             "type":"boolean",
             "description":""
         },
+        "coordinatorCountries": {
+            "title": "Coordinator's Countries",
+            "type": "array",
+            "description": "You can limit project search by filtering project coordinators from specific countries. Enter country codes in 'CZ' format.",
+            "default": [],
+            "editor": "stringList",
+            "patternValue": "[A-Z]{2}",
+            "minItems": 0,
+            "maxItems": 150,
+            "uniqueItems": true,
+            "sectionCaption": "Project Coordinator"
+        },
+        "partnerCountries": {
+            "title": "Partner's Countries",
+            "type": "array",
+            "description": "You can limit project search by filtering project partners from specific countries. Enter country codes in 'CZ' format.",
+            "default": [],
+            "editor": "stringList",
+            "patternValue": "[A-Z]{2}",
+            "minItems": 0,
+            "maxItems": 150,
+            "uniqueItems": true,
+            "sectionCaption": "Project Partner"
+        },
         "proxyConfiguration":{
             "title":"Proxy Configuration",
             "type":"object",

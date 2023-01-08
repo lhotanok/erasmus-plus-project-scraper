@@ -7,8 +7,8 @@ export type SearchProjectPayload = {
     matchAllCountries: boolean;
     withAggregation: boolean;
     project: ProjectPayload;
-    coordinator: CoordinatorPayload;
-    partner: PartnerPayload;
+    coordinator: OrganizationPayload;
+    partner: OrganizationPayload;
 };
 
 export type ProjectPayload = {
@@ -17,10 +17,7 @@ export type ProjectPayload = {
     projectLevel3? : string;
 };
 
-export type CoordinatorPayload = {
-    //
-};
-
-export type PartnerPayload = {
-    //
+export type OrganizationPayload = {
+    /** Multiple country codes can be joined by ';' */
+    organisationCountry?: string;
 };

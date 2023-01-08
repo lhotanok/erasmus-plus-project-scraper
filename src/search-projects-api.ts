@@ -7,8 +7,7 @@ import {
 } from './constants.js';
 import { InputSchema } from './types/InputSchema.js';
 import {
-    CoordinatorPayload,
-    PartnerPayload,
+    OrganizationPayload,
     ProjectPayload,
     SearchProjectPayload,
 } from './types/SearchProjectPayload.js';
@@ -106,14 +105,28 @@ const buildProjectPayload = (input: InputSchema, projectStatus?: 'ongoing' | 'co
     return project;
 };
 
-const buildCoordinatorPayload = (input: InputSchema) : CoordinatorPayload => {
-    log.debug('Input', { input });
-    return {} as CoordinatorPayload;
+const buildCoordinatorPayload = (input: InputSchema) : OrganizationPayload => {
+    const coordinator: OrganizationPayload = {};
+
+    const { coordinatorCountries = [] } = input;
+
+    if (coordinatorCountries.length > 0) {
+        coordinator.organisationCountry = coordinatorCountries.join(';');
+    }
+
+    return coordinator;
 };
 
-const buildPartnerPayload = (input: InputSchema) : PartnerPayload => {
-    log.debug('Input', { input });
-    return {} as PartnerPayload;
+const buildPartnerPayload = (input: InputSchema) : OrganizationPayload => {
+    const partner: OrganizationPayload = {};
+
+    const { partnerCountries = [] } = input;
+
+    if (partnerCountries.length > 0) {
+        partner.organisationCountry = partnerCountries.join(';');
+    }
+
+    return partner;
 };
 
 const buildProjectLevel2 = (input: InputSchema) : string | undefined => {

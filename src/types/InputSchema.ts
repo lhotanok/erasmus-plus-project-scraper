@@ -9,6 +9,8 @@ export type InputSchema =
     & SportActionTypes & {
     extractSimpleProjects: boolean;
     projectAction?: string;
+    coordinatorCountries: string[];
+    partnerCountries: string[];
     proxyConfiguration: ProxyConfigurationOptions;
     debugMode: boolean;
 };
