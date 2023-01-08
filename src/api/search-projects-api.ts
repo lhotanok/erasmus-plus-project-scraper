@@ -1,6 +1,4 @@
-import { Actor } from 'apify';
 import { log, ProxyConfigurationOptions, Request } from 'crawlee';
-import stringifyObject from 'stringify-object';
 import {
     ProjectStatusCodes,
     SEARCHED_PROJECTS_PER_REQUEST,
@@ -22,7 +20,15 @@ export const parseSearchProjectFieldValue = (inputField: string) : string => {
 export const buildStartRequests = (input: InputSchema) : Request[] => {
     const payloads = buildSearchProjectsPayloads(input);
 
-    const startRequests = payloads.map((payload) => new Request({
+    const startRequests = payloads.map((payload) => buildSearchRequest(payload));
+
+    log.info(`Built ${startRequests.length} start request${startRequests.length !== 1 ? 's' : ''}`);
+
+    return startRequests;
+};
+
+export const buildSearchRequest = (payload: SearchProjectPayload, label? : string) : Request => {
+    return new Request({
         url: SEARCH_PROJECTS_URL,
         method: 'POST',
         payload: JSON.stringify(payload),
@@ -31,11 +37,8 @@ export const buildStartRequests = (input: InputSchema) : Request[] => {
             'Content-Type': 'application/json',
             'Content-Length': JSON.stringify(payload).length.toString(),
         },
-    }));
-
-    log.info(`Built ${startRequests.length} start request${startRequests.length !== 1 ? 's' : ''}`);
-
-    return startRequests;
+        label,
+    });
 };
 
 const buildSearchProjectsPayloads = (input: InputSchema, page = 1) : SearchProjectPayload[] => {
@@ -104,10 +107,12 @@ const buildProjectPayload = (input: InputSchema, projectStatus?: 'ongoing' | 'co
 };
 
 const buildCoordinatorPayload = (input: InputSchema) : CoordinatorPayload => {
+    log.debug('Input', { input });
     return {} as CoordinatorPayload;
 };
 
 const buildPartnerPayload = (input: InputSchema) : PartnerPayload => {
+    log.debug('Input', { input });
     return {} as PartnerPayload;
 };
 
@@ -129,13 +134,4 @@ const buildProjectLevel3 = (input: InputSchema) : string | undefined => {
     });
 
     return level3Values.length > 0 ? level3Values.join(';') : undefined;
-};
-
-const stringifyPayload = (payload: SearchProjectPayload) : string => {
-    return stringifyObject(payload, {
-        indent: ' ',
-        singleQuotes: false,
-    }).replace(/\n /g, ' ')
-        .replace(/{ /g, '{')
-        .replace(/\n}/, '}');
 };

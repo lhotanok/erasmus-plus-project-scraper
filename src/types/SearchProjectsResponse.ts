@@ -46,7 +46,7 @@ export type ProjectDocument = {
     projectDescriptionImpact: string | null;
     projectDescriptionManagement: string | null;
     projectActivities: string | null;
-    projectStatus: 'ongoing' | 'completed';
+    projectStatus: 'ongoing' | 'finalized';
     projectStatusDate: string;
     projectMobilityType: string | null;
     projectLocation: string;

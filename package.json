@@ -8,13 +8,11 @@
 	},
 	"dependencies": {
 		"apify": "^3.0.0",
-		"crawlee": "^3.0.0",
-		"stringify-object": "^4.0.1"
+		"crawlee": "^3.0.0"
 	},
 	"devDependencies": {
 		"@apify/eslint-config-ts": "^0.2.3",
 		"@apify/tsconfig": "^0.1.0",
-		"@types/stringify-object": "^4.0.2",
 		"@typescript-eslint/eslint-plugin": "^5.32.0",
 		"@typescript-eslint/parser": "^5.32.0",
 		"eslint": "^8.20.0",

@@ -9,6 +9,7 @@ export type InputSchema =
     & SportActionTypes & {
     projectAction?: string;
     proxyConfiguration: ProxyConfigurationOptions;
+    debugMode: boolean;
 };
 
 export type ProjectStatus = {
