@@ -7,6 +7,7 @@ export type InputSchema =
     & KA3ActionTypes
     & JeanMonnetActionTypes
     & SportActionTypes & {
+    extractSimpleProjects: boolean;
     projectAction?: string;
     proxyConfiguration: ProxyConfigurationOptions;
     debugMode: boolean;
