@@ -59,6 +59,7 @@ export type ProjectDetailOrganization = {
     email?: string;
     CPName?: string;
     CPEmail?: string;
+    CPPhone?: string;
 };
 
 export type ProjectDetailMap = {

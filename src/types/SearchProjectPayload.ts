@@ -20,4 +20,7 @@ export type ProjectPayload = {
 export type OrganizationPayload = {
     /** Multiple country codes can be joined by ';' */
     organisationCountry?: string;
+
+    /** Multiple types can be joined by ';' */
+    organisationType?: string;
 };

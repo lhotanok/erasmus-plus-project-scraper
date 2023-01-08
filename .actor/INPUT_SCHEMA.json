@@ -448,6 +448,491 @@
             "uniqueItems": true,
             "sectionCaption": "Project Coordinator"
         },
+        "nonGovernmental-coordinatorType-31045415": {
+            "title": "Non-governmental organisation/association/social enterprise",
+            "type": "boolean",
+            "description": ""
+        },
+        "higherEducation-coordinatorType-31045389": {
+            "title": "Higher education institution (tertiary level)",
+            "type": "boolean",
+            "description": ""
+        },
+        "schoolInstituteVocational-coordinatorType-31045394": {
+            "title": "School/Institute/Educational centre – Vocational Training (secondary level)",
+            "type": "boolean",
+            "description": ""
+        },
+        "schoolInstituteGeneralSecondary-coordinatorType-31045400": {
+            "title": "School/Institute/Educational centre – General education (secondary level)",
+            "type": "boolean",
+            "description": ""
+        },
+        "other-coordinatorType-31045418": {
+            "title": "Other",
+            "type": "boolean",
+            "description": ""
+        },
+        "schoolInstituteEducationalGeneralPrimary-coordinatorType-31045399": {
+            "title": "School/Institute/Educational centre – General education (primary level)",
+            "type": "boolean",
+            "description": ""
+        },
+        "schoolInstituteEducationalVocationalTertiary-coordinatorType-31045391": {
+            "title": "School/Institute/Educational centre – Vocational Training (tertiary level)",
+            "type": "boolean",
+            "description": ""
+        },
+        "localPublicBody-coordinatorType-31045423": {
+            "title": "Local Public body",
+            "type": "boolean",
+            "description": ""
+        },
+        "schoolInstituteEducationalAdult-coordinatorType-31045396": {
+            "title": "School/Institute/Educational centre – Adult education",
+            "type": "boolean",
+            "description": ""
+        },
+        "foundation-coordinatorType-31045413": {
+            "title": "Foundation",
+            "type": "boolean",
+            "description": ""
+        },
+        "groupYoung-coordinatorType-31045419": {
+            "title": "Group of young people active in youth work",
+            "type": "boolean",
+            "description": ""
+        },
+        "smallMediumEnterprise-coordinatorType-31045405": {
+            "title": "Small and medium sized enterprise",
+            "type": "boolean",
+            "description": ""
+        },
+        "regionalPublicBody-coordinatorType-31045425": {
+            "title": "Regional Public body",
+            "type": "boolean",
+            "description": ""
+        },
+        "schoolInstituteEducationalGeneralPrePrimary-coordinatorType-31045398": {
+            "title": "School/Institute/Educational centre – General education (pre-primary level)",
+            "type": "boolean",
+            "description": ""
+        },
+        "nonProfitCultural-coordinatorType-31060129": {
+            "title": "Non-Profit making cultural organizations",
+            "type": "boolean",
+            "description": ""
+        },
+        "nationalPublicBody-coordinatorType-31045424": {
+            "title": "National Public body",
+            "type": "boolean",
+            "description": ""
+        },
+        "accreditationCertificationQualification-coordinatorType-31045431": {
+            "title": "Accreditation, certification or qualification body",
+            "type": "boolean",
+            "description": ""
+        },
+        "civilSocietyOrganisation-coordinatorType-31060124": {
+            "title": "Civil Society Organisation",
+            "type": "boolean",
+            "description": ""
+        },
+        "youthOrganisation-coordinatorType-31089295": {
+            "title": "Youth organisation",
+            "type": "boolean",
+            "description": ""
+        },
+        "europeanNgo-coordinatorType-31047349": {
+            "title": "European NGO",
+            "type": "boolean",
+            "description": ""
+        },
+        "researchInstitute-coordinatorType-31045433": {
+            "title": "Research Institute/Centre",
+            "type": "boolean",
+            "description": ""
+        },
+        "socialPartner-coordinatorType-31045410": {
+            "title": "Social partner or other representative of working life (chambers of commerce, trade union, trade association)",
+            "type": "boolean",
+            "description": ""
+        },
+        "sportClub-coordinatorType-31047357": {
+            "title": "Sport club",
+            "type": "boolean",
+            "description": ""
+        },
+        "socialEnterprise-coordinatorType-31089294": {
+            "title": "Social enterprise",
+            "type": "boolean",
+            "description": ""
+        },
+        "publicServiceProvider-coordinatorType-31089293": {
+            "title": "Public service provider",
+            "type": "boolean",
+            "description": ""
+        },
+        "largeEnterprise-coordinatorType-31045404": {
+            "title": "Large enterprise",
+            "type": "boolean",
+            "description": ""
+        },
+        "sportFederation-coordinatorType-31047355": {
+            "title": "Sport federation",
+            "type": "boolean",
+            "description": ""
+        },
+        "artAssociation-coordinatorType-31047384": {
+            "title": "Art association",
+            "type": "boolean",
+            "description": ""
+        },
+        "nationalYouthCouncil-coordinatorType-31047352": {
+            "title": "National Youth Council",
+            "type": "boolean",
+            "description": ""
+        },
+        "counsellingBody-coordinatorType-31045386": {
+            "title": "Counselling body",
+            "type": "boolean",
+            "description": ""
+        },
+        "culturalOrganizations-coordinatorType-31060134": {
+            "title": "Publically funded cultural organizations",
+            "type": "boolean",
+            "description": ""
+        },
+        "designArt-coordinatorType-31047390": {
+            "title": "Design/Art centre",
+            "type": "boolean",
+            "description": ""
+        },
+        "sportSector-coordinatorType-31053065": {
+            "title": "Organisation or association representing (parts of) the sport sector",
+            "type": "boolean",
+            "description": ""
+        },
+        "euWideNetwork-coordinatorType-31053064": {
+            "title": "EU-wide network",
+            "type": "boolean",
+            "description": ""
+        },
+        "internationalAgencies-coordinatorType-31060128": {
+            "title": "International agencies and organisations",
+            "type": "boolean",
+            "description": ""
+        },
+        "culturalOperators-coordinatorType-31047383": {
+            "title": "Cultural operators",
+            "type": "boolean",
+            "description": ""
+        },
+        "nonPublicCultural-coordinatorType-31060130": {
+            "title": "Non-publically funded cultural organizations",
+            "type": "boolean",
+            "description": ""
+        },
+        "musicCentre-coordinatorType-31047395": {
+            "title": "Music Centre",
+            "type": "boolean",
+            "description": ""
+        },
+        "civilSociety-coordinatorType-31060126": {
+            "title": "Civil society organisations working at European level",
+            "type": "boolean",
+            "description": ""
+        },
+        "humanitarianAid-coordinatorType-31060131": {
+            "title": "Organisations active in the field of humanitarian aid",
+            "type": "boolean",
+            "description": ""
+        },
+        "international-coordinatorType-31045432": {
+            "title": "International organisation under public law",
+            "type": "boolean",
+            "description": ""
+        },
+        "otherTypeOrganisation-coordinatorType-43152611": {
+            "title": "Other type of organisation",
+            "type": "boolean",
+            "description": ""
+        },
+        "audiovisualEvents-coordinatorType-31047376": {
+            "title": "Organisation active in the organisation of Audiovisual Events",
+            "type": "boolean",
+            "description": ""
+        },
+        "multimediaAssociation-coordinatorType-31047394": {
+            "title": "Multimedia association",
+            "type": "boolean",
+            "description": ""
+        },
+        "theatre-coordinatorType-31047399": {
+            "title": "Theatre",
+            "type": "boolean",
+            "description": ""
+        },
+        "publicBody-coordinatorType-31089292": {
+            "title": "European or international public body",
+            "type": "boolean",
+            "description": ""
+        },
+        "territorialCooperation-coordinatorType-31045426": {
+            "title": "European grouping of territorial cooperation",
+            "type": "boolean",
+            "description": ""
+        },
+        "profitMakingCultural-coordinatorType-31060133": {
+            "title": "Profit making cultural organizations",
+            "type": "boolean",
+            "description": ""
+        },
+        "multimediaCompany-coordinatorType-31047393": {
+            "title": "Multimedia company",
+            "type": "boolean",
+            "description": ""
+        },
+        "artGallery-coordinatorType-31047385": {
+            "title": "Art gallery",
+            "type": "boolean",
+            "description": ""
+        },
+        "danceCompany-coordinatorType-31047389": {
+            "title": "Dance Company",
+            "type": "boolean",
+            "description": ""
+        },
+        "associationsHigherEducation-coordinatorType-31047343": {
+            "title": "Associations of Higher Education Institutions",
+            "type": "boolean",
+            "description": ""
+        },
+        "sportLeague-coordinatorType-31047356": {
+            "title": "Sport league",
+            "type": "boolean",
+            "description": ""
+        },
+        "audiovisualOperators-coordinatorType-31047362": {
+            "title": "Audiovisual Operators",
+            "type": "boolean",
+            "description": ""
+        },
+        "filmSchool-coordinatorType-31047369": {
+            "title": "Film School",
+            "type": "boolean",
+            "description": ""
+        },
+        "audiovisualArchives-coordinatorType-31047377": {
+            "title": "Organisation active in the field of Audiovisual archives",
+            "type": "boolean",
+            "description": ""
+        },
+        "opera-coordinatorType-31047396": {
+            "title": "Opera",
+            "type": "boolean",
+            "description": ""
+        },
+        "twinningCommittee-coordinatorType-31060135": {
+            "title": "Twinning committee",
+            "type": "boolean",
+            "description": ""
+        },
+        "twinnedTowns-coordinatorType-31060123": {
+            "title": "Association of twinned towns",
+            "type": "boolean",
+            "description": ""
+        },
+        "televisionBroadcaster-coordinatorType-31047378": {
+            "title": "Television broadcaster",
+            "type": "boolean",
+            "description": ""
+        },
+        "filmFestival-coordinatorType-31047368": {
+            "title": "Film Festival organisation",
+            "type": "boolean",
+            "description": ""
+        },
+        "filmMarket-coordinatorType-31047371": {
+            "title": "Film Market organisation",
+            "type": "boolean",
+            "description": ""
+        },
+        "panEuropeanNetworkAudiovisual-coordinatorType-31047380": {
+            "title": "Pan European network active in the audiovisual sector",
+            "type": "boolean",
+            "description": ""
+        },
+        "literatureFoundation-coordinatorType-31047392": {
+            "title": "Literature Foundation",
+            "type": "boolean",
+            "description": ""
+        },
+        "artAgents-coordinatorType-31047402": {
+            "title": "Art Agents",
+            "type": "boolean",
+            "description": ""
+        },
+        "filmSalesAgent-coordinatorType-31047366": {
+            "title": "Film Sales Agent",
+            "type": "boolean",
+            "description": ""
+        },
+        "audiovisualTraining-coordinatorType-31047370": {
+            "title": "Audiovisual training institute",
+            "type": "boolean",
+            "description": ""
+        },
+        "audiovisualIndustry-coordinatorType-31047375": {
+            "title": "Company specialized in new technologies applicable to the Audiovisual industry",
+            "type": "boolean",
+            "description": ""
+        },
+        "choir-coordinatorType-31047387": {
+            "title": "Choir",
+            "type": "boolean",
+            "description": ""
+        },
+        "streetArt-coordinatorType-31047398": {
+            "title": "Street art association",
+            "type": "boolean",
+            "description": ""
+        },
+        "panEuropeanNetworkCulture-coordinatorType-31047403": {
+            "title": "Pan European network active in the culture sector",
+            "type": "boolean",
+            "description": ""
+        },
+        "publishers-coordinatorType-31047405": {
+            "title": "Publishers",
+            "type": "boolean",
+            "description": ""
+        },
+        "filmProducer-coordinatorType-31047363": {
+            "title": "Film Producer",
+            "type": "boolean",
+            "description": ""
+        },
+        "orchestra-coordinatorType-31047397": {
+            "title": "Orchestra",
+            "type": "boolean",
+            "description": ""
+        },
+        "research-coordinatorType-31060127": {
+            "title": "European public policy research organisations (thinktanks)",
+            "type": "boolean",
+            "description": ""
+        },
+        "twinningCommittee-coordinatorType-31060136": {
+            "title": "Twinning committee/Network",
+            "type": "boolean",
+            "description": ""
+        },
+        "publishingGroups-coordinatorType-31047406": {
+            "title": "Publishing Groups",
+            "type": "boolean",
+            "description": ""
+        },
+        "civilSociety-coordinatorType-31060125": {
+            "title": "Civil society organisations for European remembrance",
+            "type": "boolean",
+            "description": ""
+        },
+        "concertHall-coordinatorType-31047388": {
+            "title": "Concert hall",
+            "type": "boolean",
+            "description": ""
+        },
+        "publisherAssociation-coordinatorType-31047404": {
+            "title": "Publisher association",
+            "type": "boolean",
+            "description": ""
+        },
+        "platformsPanEuropean-coordinatorType-31060132": {
+            "title": "Platforms of pan-European organisations",
+            "type": "boolean",
+            "description": ""
+        },
+        "otherEducationTraining-coordinatorType-31047347": {
+            "title": "Other Associations active in Education and Training",
+            "type": "boolean",
+            "description": ""
+        },
+        "filmLiteracy-coordinatorType-31047372": {
+            "title": "Film Literacy organisation",
+            "type": "boolean",
+            "description": ""
+        },
+        "musicProducers-coordinatorType-31047400": {
+            "title": "Music producers",
+            "type": "boolean",
+            "description": ""
+        },
+        "artistAgents-coordinatorType-31047401": {
+            "title": "Artist Agents",
+            "type": "boolean",
+            "description": ""
+        },
+        "filmFundFoundation-coordinatorType-31047379": {
+            "title": "Film fund or foundation",
+            "type": "boolean",
+            "description": ""
+        },
+        "webAudiovisual-coordinatorType-31047381": {
+            "title": "Web platform active in the audiovisual sector",
+            "type": "boolean",
+            "description": ""
+        },
+        "engo-coordinatorType-31063086": {
+            "title": "European non-governmental organisation (ENGO) in the field of Education and training",
+            "type": "boolean",
+            "description": ""
+        },
+        "nonProfit-coordinatorType-31045414": {
+            "title": "Non profit organisations",
+            "type": "boolean",
+            "description": ""
+        },
+        "videoGames-coordinatorType-31047367": {
+            "title": "Video Games Developer/Producers",
+            "type": "boolean",
+            "description": ""
+        },
+        "cinemaTheatres-coordinatorType-31047382": {
+            "title": "Cinema Theatres",
+            "type": "boolean",
+            "description": ""
+        },
+        "architecture-coordinatorType-31047386": {
+            "title": "Centre for Architecture",
+            "type": "boolean",
+            "description": ""
+        },
+        "festival-coordinatorType-31047391": {
+            "title": "Festival (non Audiovisual)",
+            "type": "boolean",
+            "description": ""
+        },
+        "studentAssociations-coordinatorType-31045376": {
+            "title": "Student associations",
+            "type": "boolean",
+            "description": ""
+        },
+        "audiovisualConsultant-coordinatorType-31047374": {
+            "title": "Audiovisual Consultant",
+            "type": "boolean",
+            "description": ""
+        },
+        "rectors-coordinatorType-31047407": {
+            "title": "Associations of Rectors of Higher Education Institutions / Higher Education Institution' Rectors Conferences",
+            "type": "boolean",
+            "description": ""
+        },
+        "engoYouth-coordinatorType-31063089": {
+            "title": "European non-governmental organisation (ENGO) having a broader scope but including a section dedicated to youth",
+            "type": "boolean",
+            "description": ""
+        },
         "partnerCountries": {
             "title": "Partner's Countries",
             "type": "array",
@@ -459,6 +944,491 @@
             "maxItems": 150,
             "uniqueItems": true,
             "sectionCaption": "Project Partner"
+        },
+        "nonGovernmental-partnerType-31045415": {
+            "title": "Non-governmental organisation/association/social enterprise",
+            "type": "boolean",
+            "description": ""
+        },
+        "higherEducation-partnerType-31045389": {
+            "title": "Higher education institution (tertiary level)",
+            "type": "boolean",
+            "description": ""
+        },
+        "schoolInstituteVocational-partnerType-31045394": {
+            "title": "School/Institute/Educational centre – Vocational Training (secondary level)",
+            "type": "boolean",
+            "description": ""
+        },
+        "schoolInstituteGeneralSecondary-partnerType-31045400": {
+            "title": "School/Institute/Educational centre – General education (secondary level)",
+            "type": "boolean",
+            "description": ""
+        },
+        "other-partnerType-31045418": {
+            "title": "Other",
+            "type": "boolean",
+            "description": ""
+        },
+        "schoolInstituteEducationalGeneralPrimary-partnerType-31045399": {
+            "title": "School/Institute/Educational centre – General education (primary level)",
+            "type": "boolean",
+            "description": ""
+        },
+        "schoolInstituteEducationalVocationalTertiary-partnerType-31045391": {
+            "title": "School/Institute/Educational centre – Vocational Training (tertiary level)",
+            "type": "boolean",
+            "description": ""
+        },
+        "localPublicBody-partnerType-31045423": {
+            "title": "Local Public body",
+            "type": "boolean",
+            "description": ""
+        },
+        "schoolInstituteEducationalAdult-partnerType-31045396": {
+            "title": "School/Institute/Educational centre – Adult education",
+            "type": "boolean",
+            "description": ""
+        },
+        "foundation-partnerType-31045413": {
+            "title": "Foundation",
+            "type": "boolean",
+            "description": ""
+        },
+        "groupYoung-partnerType-31045419": {
+            "title": "Group of young people active in youth work",
+            "type": "boolean",
+            "description": ""
+        },
+        "smallMediumEnterprise-partnerType-31045405": {
+            "title": "Small and medium sized enterprise",
+            "type": "boolean",
+            "description": ""
+        },
+        "regionalPublicBody-partnerType-31045425": {
+            "title": "Regional Public body",
+            "type": "boolean",
+            "description": ""
+        },
+        "schoolInstituteEducationalGeneralPrePrimary-partnerType-31045398": {
+            "title": "School/Institute/Educational centre – General education (pre-primary level)",
+            "type": "boolean",
+            "description": ""
+        },
+        "nonProfitCultural-partnerType-31060129": {
+            "title": "Non-Profit making cultural organizations",
+            "type": "boolean",
+            "description": ""
+        },
+        "nationalPublicBody-partnerType-31045424": {
+            "title": "National Public body",
+            "type": "boolean",
+            "description": ""
+        },
+        "accreditationCertificationQualification-partnerType-31045431": {
+            "title": "Accreditation, certification or qualification body",
+            "type": "boolean",
+            "description": ""
+        },
+        "civilSocietyOrganisation-partnerType-31060124": {
+            "title": "Civil Society Organisation",
+            "type": "boolean",
+            "description": ""
+        },
+        "youthOrganisation-partnerType-31089295": {
+            "title": "Youth organisation",
+            "type": "boolean",
+            "description": ""
+        },
+        "europeanNgo-partnerType-31047349": {
+            "title": "European NGO",
+            "type": "boolean",
+            "description": ""
+        },
+        "researchInstitute-partnerType-31045433": {
+            "title": "Research Institute/Centre",
+            "type": "boolean",
+            "description": ""
+        },
+        "socialPartner-partnerType-31045410": {
+            "title": "Social partner or other representative of working life (chambers of commerce, trade union, trade association)",
+            "type": "boolean",
+            "description": ""
+        },
+        "sportClub-partnerType-31047357": {
+            "title": "Sport club",
+            "type": "boolean",
+            "description": ""
+        },
+        "socialEnterprise-partnerType-31089294": {
+            "title": "Social enterprise",
+            "type": "boolean",
+            "description": ""
+        },
+        "publicServiceProvider-partnerType-31089293": {
+            "title": "Public service provider",
+            "type": "boolean",
+            "description": ""
+        },
+        "largeEnterprise-partnerType-31045404": {
+            "title": "Large enterprise",
+            "type": "boolean",
+            "description": ""
+        },
+        "sportFederation-partnerType-31047355": {
+            "title": "Sport federation",
+            "type": "boolean",
+            "description": ""
+        },
+        "artAssociation-partnerType-31047384": {
+            "title": "Art association",
+            "type": "boolean",
+            "description": ""
+        },
+        "nationalYouthCouncil-partnerType-31047352": {
+            "title": "National Youth Council",
+            "type": "boolean",
+            "description": ""
+        },
+        "counsellingBody-partnerType-31045386": {
+            "title": "Counselling body",
+            "type": "boolean",
+            "description": ""
+        },
+        "culturalOrganizations-partnerType-31060134": {
+            "title": "Publically funded cultural organizations",
+            "type": "boolean",
+            "description": ""
+        },
+        "designArt-partnerType-31047390": {
+            "title": "Design/Art centre",
+            "type": "boolean",
+            "description": ""
+        },
+        "sportSector-partnerType-31053065": {
+            "title": "Organisation or association representing (parts of) the sport sector",
+            "type": "boolean",
+            "description": ""
+        },
+        "euWideNetwork-partnerType-31053064": {
+            "title": "EU-wide network",
+            "type": "boolean",
+            "description": ""
+        },
+        "internationalAgencies-partnerType-31060128": {
+            "title": "International agencies and organisations",
+            "type": "boolean",
+            "description": ""
+        },
+        "culturalOperators-partnerType-31047383": {
+            "title": "Cultural operators",
+            "type": "boolean",
+            "description": ""
+        },
+        "nonPublicCultural-partnerType-31060130": {
+            "title": "Non-publically funded cultural organizations",
+            "type": "boolean",
+            "description": ""
+        },
+        "musicCentre-partnerType-31047395": {
+            "title": "Music Centre",
+            "type": "boolean",
+            "description": ""
+        },
+        "civilSociety-partnerType-31060126": {
+            "title": "Civil society organisations working at European level",
+            "type": "boolean",
+            "description": ""
+        },
+        "humanitarianAid-partnerType-31060131": {
+            "title": "Organisations active in the field of humanitarian aid",
+            "type": "boolean",
+            "description": ""
+        },
+        "international-partnerType-31045432": {
+            "title": "International organisation under public law",
+            "type": "boolean",
+            "description": ""
+        },
+        "otherTypeOrganisation-partnerType-43152611": {
+            "title": "Other type of organisation",
+            "type": "boolean",
+            "description": ""
+        },
+        "audiovisualEvents-partnerType-31047376": {
+            "title": "Organisation active in the organisation of Audiovisual Events",
+            "type": "boolean",
+            "description": ""
+        },
+        "multimediaAssociation-partnerType-31047394": {
+            "title": "Multimedia association",
+            "type": "boolean",
+            "description": ""
+        },
+        "theatre-partnerType-31047399": {
+            "title": "Theatre",
+            "type": "boolean",
+            "description": ""
+        },
+        "publicBody-partnerType-31089292": {
+            "title": "European or international public body",
+            "type": "boolean",
+            "description": ""
+        },
+        "territorialCooperation-partnerType-31045426": {
+            "title": "European grouping of territorial cooperation",
+            "type": "boolean",
+            "description": ""
+        },
+        "profitMakingCultural-partnerType-31060133": {
+            "title": "Profit making cultural organizations",
+            "type": "boolean",
+            "description": ""
+        },
+        "multimediaCompany-partnerType-31047393": {
+            "title": "Multimedia company",
+            "type": "boolean",
+            "description": ""
+        },
+        "artGallery-partnerType-31047385": {
+            "title": "Art gallery",
+            "type": "boolean",
+            "description": ""
+        },
+        "danceCompany-partnerType-31047389": {
+            "title": "Dance Company",
+            "type": "boolean",
+            "description": ""
+        },
+        "associationsHigherEducation-partnerType-31047343": {
+            "title": "Associations of Higher Education Institutions",
+            "type": "boolean",
+            "description": ""
+        },
+        "sportLeague-partnerType-31047356": {
+            "title": "Sport league",
+            "type": "boolean",
+            "description": ""
+        },
+        "audiovisualOperators-partnerType-31047362": {
+            "title": "Audiovisual Operators",
+            "type": "boolean",
+            "description": ""
+        },
+        "filmSchool-partnerType-31047369": {
+            "title": "Film School",
+            "type": "boolean",
+            "description": ""
+        },
+        "audiovisualArchives-partnerType-31047377": {
+            "title": "Organisation active in the field of Audiovisual archives",
+            "type": "boolean",
+            "description": ""
+        },
+        "opera-partnerType-31047396": {
+            "title": "Opera",
+            "type": "boolean",
+            "description": ""
+        },
+        "twinningCommittee-partnerType-31060135": {
+            "title": "Twinning committee",
+            "type": "boolean",
+            "description": ""
+        },
+        "twinnedTowns-partnerType-31060123": {
+            "title": "Association of twinned towns",
+            "type": "boolean",
+            "description": ""
+        },
+        "televisionBroadcaster-partnerType-31047378": {
+            "title": "Television broadcaster",
+            "type": "boolean",
+            "description": ""
+        },
+        "filmFestival-partnerType-31047368": {
+            "title": "Film Festival organisation",
+            "type": "boolean",
+            "description": ""
+        },
+        "filmMarket-partnerType-31047371": {
+            "title": "Film Market organisation",
+            "type": "boolean",
+            "description": ""
+        },
+        "panEuropeanNetworkAudiovisual-partnerType-31047380": {
+            "title": "Pan European network active in the audiovisual sector",
+            "type": "boolean",
+            "description": ""
+        },
+        "literatureFoundation-partnerType-31047392": {
+            "title": "Literature Foundation",
+            "type": "boolean",
+            "description": ""
+        },
+        "artAgents-partnerType-31047402": {
+            "title": "Art Agents",
+            "type": "boolean",
+            "description": ""
+        },
+        "filmSalesAgent-partnerType-31047366": {
+            "title": "Film Sales Agent",
+            "type": "boolean",
+            "description": ""
+        },
+        "audiovisualTraining-partnerType-31047370": {
+            "title": "Audiovisual training institute",
+            "type": "boolean",
+            "description": ""
+        },
+        "audiovisualIndustry-partnerType-31047375": {
+            "title": "Company specialized in new technologies applicable to the Audiovisual industry",
+            "type": "boolean",
+            "description": ""
+        },
+        "choir-partnerType-31047387": {
+            "title": "Choir",
+            "type": "boolean",
+            "description": ""
+        },
+        "streetArt-partnerType-31047398": {
+            "title": "Street art association",
+            "type": "boolean",
+            "description": ""
+        },
+        "panEuropeanNetworkCulture-partnerType-31047403": {
+            "title": "Pan European network active in the culture sector",
+            "type": "boolean",
+            "description": ""
+        },
+        "publishers-partnerType-31047405": {
+            "title": "Publishers",
+            "type": "boolean",
+            "description": ""
+        },
+        "filmProducer-partnerType-31047363": {
+            "title": "Film Producer",
+            "type": "boolean",
+            "description": ""
+        },
+        "orchestra-partnerType-31047397": {
+            "title": "Orchestra",
+            "type": "boolean",
+            "description": ""
+        },
+        "research-partnerType-31060127": {
+            "title": "European public policy research organisations (thinktanks)",
+            "type": "boolean",
+            "description": ""
+        },
+        "twinningCommittee-partnerType-31060136": {
+            "title": "Twinning committee/Network",
+            "type": "boolean",
+            "description": ""
+        },
+        "publishingGroups-partnerType-31047406": {
+            "title": "Publishing Groups",
+            "type": "boolean",
+            "description": ""
+        },
+        "civilSociety-partnerType-31060125": {
+            "title": "Civil society organisations for European remembrance",
+            "type": "boolean",
+            "description": ""
+        },
+        "concertHall-partnerType-31047388": {
+            "title": "Concert hall",
+            "type": "boolean",
+            "description": ""
+        },
+        "publisherAssociation-partnerType-31047404": {
+            "title": "Publisher association",
+            "type": "boolean",
+            "description": ""
+        },
+        "platformsPanEuropean-partnerType-31060132": {
+            "title": "Platforms of pan-European organisations",
+            "type": "boolean",
+            "description": ""
+        },
+        "otherEducationTraining-partnerType-31047347": {
+            "title": "Other Associations active in Education and Training",
+            "type": "boolean",
+            "description": ""
+        },
+        "filmLiteracy-partnerType-31047372": {
+            "title": "Film Literacy organisation",
+            "type": "boolean",
+            "description": ""
+        },
+        "musicProducers-partnerType-31047400": {
+            "title": "Music producers",
+            "type": "boolean",
+            "description": ""
+        },
+        "artistAgents-partnerType-31047401": {
+            "title": "Artist Agents",
+            "type": "boolean",
+            "description": ""
+        },
+        "filmFundFoundation-partnerType-31047379": {
+            "title": "Film fund or foundation",
+            "type": "boolean",
+            "description": ""
+        },
+        "webAudiovisual-partnerType-31047381": {
+            "title": "Web platform active in the audiovisual sector",
+            "type": "boolean",
+            "description": ""
+        },
+        "engo-partnerType-31063086": {
+            "title": "European non-governmental organisation (ENGO) in the field of Education and training",
+            "type": "boolean",
+            "description": ""
+        },
+        "nonProfit-partnerType-31045414": {
+            "title": "Non profit organisations",
+            "type": "boolean",
+            "description": ""
+        },
+        "videoGames-partnerType-31047367": {
+            "title": "Video Games Developer/Producers",
+            "type": "boolean",
+            "description": ""
+        },
+        "cinemaTheatres-partnerType-31047382": {
+            "title": "Cinema Theatres",
+            "type": "boolean",
+            "description": ""
+        },
+        "architecture-partnerType-31047386": {
+            "title": "Centre for Architecture",
+            "type": "boolean",
+            "description": ""
+        },
+        "festival-partnerType-31047391": {
+            "title": "Festival (non Audiovisual)",
+            "type": "boolean",
+            "description": ""
+        },
+        "studentAssociations-partnerType-31045376": {
+            "title": "Student associations",
+            "type": "boolean",
+            "description": ""
+        },
+        "audiovisualConsultant-partnerType-31047374": {
+            "title": "Audiovisual Consultant",
+            "type": "boolean",
+            "description": ""
+        },
+        "rectors-partnerType-31047407": {
+            "title": "Associations of Rectors of Higher Education Institutions / Higher Education Institution' Rectors Conferences",
+            "type": "boolean",
+            "description": ""
+        },
+        "engoYouth-partnerType-31063089": {
+            "title": "European non-governmental organisation (ENGO) having a broader scope but including a section dedicated to youth",
+            "type": "boolean",
+            "description": ""
         },
         "proxyConfiguration":{
             "title":"Proxy Configuration",

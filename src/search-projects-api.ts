@@ -65,8 +65,8 @@ const buildSearchProjectsPayloads = (input: InputSchema, page = 1) : SearchProje
             matchAllCountries: false,
             withAggregation: true,
             project,
-            coordinator: buildCoordinatorPayload(input),
-            partner: buildPartnerPayload(input),
+            coordinator: buildOrganizationPayload(input, input.partnerCountries, 'coordinatorType'),
+            partner: buildOrganizationPayload(input, input.partnerCountries, 'partnerType'),
         };
 
         return payload;
@@ -105,46 +105,50 @@ const buildProjectPayload = (input: InputSchema, projectStatus?: 'ongoing' | 'co
     return project;
 };
 
-const buildCoordinatorPayload = (input: InputSchema) : OrganizationPayload => {
-    const coordinator: OrganizationPayload = {};
+const buildOrganizationPayload = (
+    input: InputSchema,
+    countries: string[],
+    type: 'coordinatorType' | 'partnerType',
+) : OrganizationPayload => {
+    const payload: OrganizationPayload = {};
 
-    const { coordinatorCountries = [] } = input;
-
-    if (coordinatorCountries.length > 0) {
-        coordinator.organisationCountry = coordinatorCountries.join(';');
+    if (countries.length > 0) {
+        payload.organisationCountry = countries.join(';');
     }
 
-    return coordinator;
-};
+    const organizationTypes = getInputFieldValuesFromCategory(input, type);
 
-const buildPartnerPayload = (input: InputSchema) : OrganizationPayload => {
-    const partner: OrganizationPayload = {};
-
-    const { partnerCountries = [] } = input;
-
-    if (partnerCountries.length > 0) {
-        partner.organisationCountry = partnerCountries.join(';');
+    if (organizationTypes.length > 0) {
+        payload.organisationType = organizationTypes.join(';');
     }
 
-    return partner;
+    return payload;
 };
 
 const buildProjectLevel2 = (input: InputSchema) : string | undefined => {
     return input.projectAction
-        ? input.projectAction.replace(/[^-]+-/, '')
+        ? parseSearchProjectFieldValue(input.projectAction)
         : undefined;
 };
 
 const buildProjectLevel3 = (input: InputSchema) : string | undefined => {
+    const level3Values = getInputFieldValuesFromCategory(input, 'actionType');
+    return level3Values.length > 0 ? level3Values.join(';') : undefined;
+};
+
+const getInputFieldValuesFromCategory = (
+    input: InputSchema,
+    category: 'actionType' | 'coordinatorType' | 'partnerType',
+) : string[] => {
     const inputMap = input as Record<string, string | boolean | ProxyConfigurationOptions>;
 
-    const level3Values: string[] = [];
+    const values: string[] = [];
 
     Object.entries(inputMap).forEach(([fieldName, fieldValue]) => {
-        if (fieldName.match(/-actionType-/) && fieldValue === true) {
-            level3Values.push(fieldName.replace(/[^-]+-actionType-/, ''));
+        if (fieldName.match(`-${category}-`) && fieldValue === true) {
+            values.push(fieldName.replace(new RegExp(`[^-]+-${category}-`), ''));
         }
     });
 
-    return level3Values.length > 0 ? level3Values.join(';') : undefined;
+    return values;
 };
