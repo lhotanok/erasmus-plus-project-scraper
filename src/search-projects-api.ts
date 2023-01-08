@@ -4,14 +4,14 @@ import {
     SEARCHED_PROJECTS_PER_REQUEST,
     SEARCH_PROJECTS_INDEX,
     SEARCH_PROJECTS_URL,
-} from '../constants.js';
-import { InputSchema } from '../types/InputSchema.js';
+} from './constants.js';
+import { InputSchema } from './types/InputSchema.js';
 import {
     CoordinatorPayload,
     PartnerPayload,
     ProjectPayload,
     SearchProjectPayload,
-} from '../types/SearchProjectPayload.js';
+} from './types/SearchProjectPayload.js';
 
 export const parseSearchProjectFieldValue = (inputField: string) : string => {
     return inputField.replace(/[^-]+-/, '');

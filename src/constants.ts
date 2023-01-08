@@ -1,5 +1,6 @@
 export const LABELS = {
     SEARCH_PROJECTS_PAGE: 'SEARCH_PROJECTS_PAGE',
+    PROJECT_DETAIL: 'PROJECT_DETAIL',
 };
 
 /** For search request payload, field name 'projectStatus' */
